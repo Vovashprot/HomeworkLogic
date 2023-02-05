@@ -41,10 +41,10 @@ public class Main {
         byte age = 15;
         boolean kindergarten = (age >= 2 ) && (age <= 6);
         boolean school = (age >= 7 ) && (age <= 18);
-        boolean university = (age > 2 ) && (age < 24);
-        boolean work = (age => 24);
+        boolean university = (age > 18 ) && (age < 24);
+        boolean work = (age >= 24);
         if (kindergarten) {System.out.println("В возрасте " +age+ " нужно посещать детский сад.");}
-        if (school) {System.out.println("В возрасте " +age+ " нужно посещать детский школу.");}
+        if (school) {System.out.println("В возрасте " +age+ " нужно посещать школу.");}
         if (university) {System.out.println("В возрасте " +age+ " нужно посещать университет.");}
         if (work) {System.out.println("В возрасте " +age+ " нужно идти работать.");}
     }
