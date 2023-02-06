@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bc3848-14fa-4161-8c52-f33fb9dfe060" name="Changes" comment="3 task">
+    <list default="true" id="66bc3848-14fa-4161-8c52-f33fb9dfe060" name="Changes" comment="4 task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -32,6 +35,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,7 +50,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675586361943</updated>
-      <workItem from="1675586363089" duration="2689000" />
+      <workItem from="1675586363089" duration="2841000" />
+      <workItem from="1675689946437" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="1 task">
       <created>1675587041095</created>
@@ -66,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675588046318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4 task">
+      <created>1675589087449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675589087449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4 task">
+      <created>1675589226400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675589226400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +98,7 @@
     <MESSAGE value="1 task" />
     <MESSAGE value="2 task" />
     <MESSAGE value="3 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 task" />
+    <MESSAGE value="4 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 task" />
   </component>
 </project>

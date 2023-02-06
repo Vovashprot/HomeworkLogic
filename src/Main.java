@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1 () {
         System.out.println("Task 1");
@@ -47,5 +48,12 @@ public class Main {
         if (school) {System.out.println("В возрасте " +age+ " нужно посещать школу.");}
         if (university) {System.out.println("В возрасте " +age+ " нужно посещать университет.");}
         if (work) {System.out.println("В возрасте " +age+ " нужно идти работать.");}
+    }
+    public static void task5 () {
+        System.out.println("Task 5");
+        byte childAge = 14;
+        if (childAge < 5) {System.out.println("В возрасте " + childAge + " нельзя кататься на аттракционе ");};
+        if (childAge >= 5 && childAge < 14) {System.out.println("В возрасте " + childAge + " можно кататься на аттракционе с сопровождением ");};
+        if (childAge >= 14) {System.out.println("В возрасте " + childAge + " можно кататься на аттракционе");};
     }
 }
