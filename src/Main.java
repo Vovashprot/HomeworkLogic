@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -90,5 +91,14 @@ public class Main {
         else {
             System.out.println("В вагоне есть сидячие места.");
         }
+    }
+    public static void task7() {
+        System.out.println("Task 7");
+        int one = 23;
+        int two = 64;
+        int three = 24;
+        if ((one > two) && (one > three)) {System.out.println( one + " - самое большое число");}
+        if ((two > one) && (two > three)) {System.out.println( two + " - самое большое число");}
+        if ((three > one) && (three > two)) {System.out.println( three + " - самое большое число");}
     }
 }
