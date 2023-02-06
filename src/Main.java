@@ -78,7 +78,7 @@ public class Main {
 
     public static void task6() {
         System.out.println("Task 6");
-        int people = 100;
+        int people = 23;
         int standing = 102;
         int seats = 60;
         if (people >= (standing + seats)) {
@@ -87,7 +87,7 @@ public class Main {
         if ((people >= seats) && (people < standing + seats)) {
             System.out.println("В вагоне есть стоячие места.");
         }
-        if (people < seats) {
+        else {
             System.out.println("В вагоне есть сидячие места.");
         }
     }
